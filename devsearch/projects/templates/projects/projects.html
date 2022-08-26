@@ -33,7 +33,7 @@
         </div>
 
         <div class="hero-section__search">
-          <form class="form" action="{% url 'projects' %}" method="get">
+          <form id="searchForm" class="form" action="{% url 'projects' %}" method="get">
             <div class="form__field">
               <label for="formInput#search">Search By Projects </label>
               <input class="input input--text" id="formInput#search" type="text" name="search_query"
@@ -52,7 +52,7 @@
             {% for project in projects %}
           <div class="column">
             <div class="card project">
-              <a href="{% url 'update-project' project.id %}" class="project">
+              <a href="{% url 'project' project.id %}" class="project">
                 <img class="project__thumbnail" src="{{project.featured_image.url}}" alt="project thumbnail" />
                 <div class="card__body">
                   <h3 class="project__title">{{project.title}}</h3>
