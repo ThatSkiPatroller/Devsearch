@@ -125,7 +125,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'base.wsgi.application'
+WSGI_APPLICATION = 'pink.wsgi.application'
 
 
 # Database
