@@ -137,7 +137,7 @@ DATABASES = {
         'NAME': 'devsearch',
         'USER': 'Trace',
         'PASSWORD': 'Tdragon9!',
-        'HOST': 'database-1.c1vt3dc1oviy.us-east-2.rds.amazonaws.com',
+        'HOST': 'traces-devsearch.c1vt3dc1oviy.us-east-2.rds.amazonaws.com',
         'PORT':'5432',
     }
 }
